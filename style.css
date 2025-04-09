@@ -1,0 +1,306 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+
+}
+
+nav ul {
+    display: flex;
+    gap: 40px;
+
+}
+
+header {
+    background: #014E56;
+    padding: 15px;
+    padding-top: 50px;
+}
+
+.btn {
+    background-color: inherit;
+    color: white;
+    width: 153px;
+    height: 48px;
+    border-width: 2px;
+    border-radius: 24px;
+
+    border: 2px solid #FFFFFF;
+}
+
+nav ul li {
+    list-style: none;
+}
+nav{
+    display: none;
+}
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+
+}
+
+nav ul {
+    margin-left: 680px;
+}
+
+.wer1 p {
+    font-family: Livvic;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    /* padding-top: 180px; */
+
+}
+
+.wer1 {
+    padding: 80px 0;
+    background-color: #014E56;
+    color: #FFFFFF;
+
+
+}
+.wer1 .container{
+    display: flex;
+    justify-content: space-between;
+   
+    gap: 30px;
+    align-items: center;
+}
+.wer1 h1 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+    padding-top: 50px;
+    padding-right: 350px;
+
+}
+
+.btn:hover {
+    background-color: #FFFFFF;
+    border: none;
+    color: #014E56;
+}
+
+.wer2 {
+    background: #004047;
+    padding-bottom: 180px;
+}
+
+.wer2 h1 {
+    padding-top: 80px;
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #004047;
+
+
+
+
+    padding-bottom: 60px;
+}
+
+main {
+    background-color: #004047;
+}
+
+.box1 {
+    width: 302px;
+    background-color: #012F34;
+
+    text-align: center;
+
+}
+
+.box1 img {
+    padding-top: 44px;
+
+}
+
+.h1 {
+    padding-top: 24px;
+}
+
+
+.h1 {
+    color: #79C8C7;
+}
+
+.card {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.rasm-ota{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.btn2 {
+
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: #F67E7E;
+    font-size: 25px;
+    margin-top: 40px;
+}
+
+.wer3 {
+    background-color: #012F34;
+    
+}
+
+.wer3 h1 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-top: 50px;
+    color: white;
+}
+
+.wer3 div {
+    justify-content: center;
+    display: flex;
+    gap: 80px;
+    padding-top: 56px;
+    padding-bottom: 120px;
+}
+
+.wer4 {
+    background: #F67E7E;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 200px;
+
+}
+
+.wer4 h1 {
+    font-family: Livvic;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #012F34;
+}
+
+.btn3 {
+    background-color: inherit;
+    color: white;
+    width: 153px;
+    height: 48px;
+    border-width: 2px;
+    border-radius: 24px;
+    color: #012F34;
+    border: 2px solid #012F34;
+}
+
+.btn3:hover {
+    color: white;
+    background-color: #012F34;
+}
+
+footer {
+    background: #002529;
+    display: flex;
+    justify-content: center;
+    height: 90px;
+
+}
+
+footer .container {
+    display: flex;
+    align-items: center;
+    gap: 950px;
+
+}
+.btn6{
+    display: none;
+    width: 20px;
+height: 3px;
+top: 70px;
+left: 331px;
+background-color: white;
+color: #FFFFFF;
+}
+
+.boxs {
+    color: white;
+    display: flex;
+    gap: 10px;
+}
+
+@media(max-width:760px) {
+    .wer1 .container{
+        flex-direction: column;
+        gap: 50px;
+
+    }
+    .wer4{
+        gap: 25px;
+        display: flex;
+
+
+    }
+    .wer3 div{
+gap: 25px;
+
+    }
+}
+@media(max-width:400px){
+.btn6{
+    display: block;
+}
+
+.btn{
+    display: none;
+}
+.rasm-ota{
+    flex-direction: column;
+    
+}
+.wer1 .container{
+    flex-direction: column;
+    text-align: center;
+}
+.wer4{
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+footer .container{
+    flex-direction: column;
+}
+}
